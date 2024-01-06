@@ -1,4 +1,4 @@
-# Rchtsang Ucd-eec172
+# Homebrew Tap for EEC172 Software Dependencies
 
 ## How do I install these formulae?
 
