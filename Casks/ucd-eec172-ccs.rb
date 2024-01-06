@@ -1,4 +1,4 @@
-cask "code-composer-studio" do
+cask "ucd-eec172-ccs" do
   version "12.5.0.00007"
   sha256 "29f91075206ff8616a75a242494d1da602e7f23a5c4ccf636738f6d86e0ff91a"
 
