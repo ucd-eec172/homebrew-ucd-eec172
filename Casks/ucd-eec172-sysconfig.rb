@@ -1,6 +1,6 @@
 cask "ucd-eec172-sysconfig" do
   version "1.18.1_3343"
-  sha256 "29f91075206ff8616a75a242494d1da602e7f23a5c4ccf636738f6d86e0ff91a"
+  md5 "840c0c61ba875a51eb095e55cc9ff879"
 
   url "https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-nsUM6f7Vvb/#{version.sub('_', '.')}/sysconfig-#{version}-setup.dmg"
   name "TI SysConfig"
