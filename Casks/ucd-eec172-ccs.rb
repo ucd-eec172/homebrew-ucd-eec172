@@ -18,8 +18,8 @@ cask "ucd-eec172-ccs" do
   installer script: {
     executable: "ccs_setup_#{version}.app/Contents/MacOS/installbuilder.sh",
     args:       [
-      "--mode", "unattended", 
-      "--prefix", "/Applications/TI", 
+      "--mode", "unattended",
+      "--prefix", "/Applications/TI",
       "--enable-components", "PF_CC3X"
     ],
   }
