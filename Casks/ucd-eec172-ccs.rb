@@ -12,6 +12,8 @@ cask "ucd-eec172-ccs" do
     regex(/href=.*?ccs[._-]installer[._-]osx[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
   end
 
+  conflicts_with cask: ["code-composer-studio"]
+
   # https://software-dl.ti.com/ccs/esd/documents/ccs_installer-cli.html
   installer script: {
     executable: "ccs_setup_#{version}.app/Contents/MacOS/installbuilder.sh",
