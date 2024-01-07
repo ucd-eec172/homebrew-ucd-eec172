@@ -1,6 +1,6 @@
 cask "ucd-eec172-sysconfig" do
   version "1.18.1_3343"
-  md5 "840c0c61ba875a51eb095e55cc9ff879"
+  sha256 "9e1ba12dbb5e26c3828850b2a7642fe5c1c82e20118b5670672036a4a64b7a2f"
 
   url "https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-nsUM6f7Vvb/#{version.sub('_', '.')}/sysconfig-#{version}-setup.dmg"
   name "TI SysConfig"
@@ -17,12 +17,12 @@ cask "ucd-eec172-sysconfig" do
     executable: "sysconfig-#{version}-setup.app/Contents/MacOS/installbuilder.sh",
     args:       [
       "--mode", "unattended", 
-      "--prefix", "/Applications/TI",
+      "--prefix", "/Applications/TI/sysconfig",
     ],
   }
 
   uninstall script: {
-    executable: "/Applications/TI/ccs/uninstall_ccs.app/Contents/MacOS/installbuilder.sh",
+    executable: "/Applications/TI/sysconfig/uninstall.app/Contents/MacOS/installbuilder.sh",
     args:       ["--mode", "unattended"],
     sudo:       true,
   }
