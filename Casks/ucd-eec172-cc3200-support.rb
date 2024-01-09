@@ -15,10 +15,10 @@ cask "ucd-eec172-cc3200-support" do
     ],
   }
 
-  uninstall trash: {
+  uninstall trash: [
     "/Applications/TI/lib/cc3200sdk_#{version}",
     "/Applications/TI/lib/cc3200servicepack",
-  }
+  ]
 
   zap trash: [
     "/Applications/TI",
