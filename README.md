@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install rchtsang/ucd-eec172/<formula>`
+`brew install ucd-eec172/ucd-eec172/<formula>`
 
-Or `brew tap rchtsang/ucd-eec172` and then `brew install <formula>`.
+Or `brew tap ucd-eec172/ucd-eec172` and then `brew install <formula>`.
 
 ## Documentation
 
