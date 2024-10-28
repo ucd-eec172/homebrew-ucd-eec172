@@ -20,8 +20,7 @@ cask "ucd-eec172-ccs" do
     args:       [
       "--mode", "unattended",
       "--prefix", "/Applications/TI",
-      "--enable-components", "PF_CC3X",
-      "--enable-components", "PF_MSP432"
+      "--enable-components", "PF_CC3X,PF_MSP432",
     ],
   }
 
